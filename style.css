@@ -1,0 +1,207 @@
+@import url('https://fonts.cdnfonts.com/css/high-cruiser');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+body{
+    background-color: rgb(3, 3, 3) ; 
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 99%;
+    background-size: cover;
+    
+   
+    
+}
+
+
+body {
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #f2ff00 #191919;
+    /* funciona cuando abris el modal del proyecto */
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track-piece {
+    background-color: #191919;
+}
+
+body::-webkit-scrollbar-thumb {
+    height: 30px;
+    background-color: #f2ff00;
+}
+
+.texto1{
+    margin-top: 200px;
+    display: flex;
+ justify-content: center;
+
+}
+
+.texto2{
+    display: flex;
+ justify-content: center;
+
+}
+
+h1{
+    color: white;
+    font-weight: 700;
+    font-family: 'High Cruiser', sans-serif;
+    font-size: 90px ;
+    
+
+}
+
+h2{
+    color: white;
+    font-weight: 700;
+    font-family: 'High Cruiser', sans-serif;
+    font-size: 90px;
+    
+}
+
+.logo{
+    width: 500px;
+    position: absolute;
+    margin-top: -450px;
+    margin-left: -120px;
+}
+
+a {
+    background-image: linear-gradient(
+      to right,
+      #f2ff00,
+      #f2ff00 50%,
+      rgb(255, 255, 255) 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:before{
+    content: '';
+    background: #f2ff00;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:hover {
+   background-position: 0;
+  }
+  
+  a:hover::before{
+    width: 100%;
+  }
+  
+.cartilla1{
+    width: 80%;
+   margin-left: 10%;
+   margin-top:5% ;
+}
+
+.textos3{
+
+   font-weight: 700;
+    font-family: 'High Cruiser', sans-serif;
+    font-size: 50px;
+}
+
+.promo {
+margin-left: 25%;
+}
+.inicio{
+
+width: 10%;
+margin-left: 60%;
+margin-top: -75px;
+}
+
+@media only screen and (max-width:450px) {
+
+    h1{
+        color: white;
+        font-weight: 700;
+        font-family: 'High Cruiser', sans-serif;
+        font-size: 70px ;
+        
+    
+    }
+    
+    h2{
+        color: white;
+        font-weight: 700;
+        font-family: 'High Cruiser', sans-serif;
+        font-size: 70px;
+        
+    }
+
+
+    .logo{
+        width: 300px;
+        position: absolute;
+        margin-top: -500px;
+        margin-left: -80px;
+    }
+
+
+    .texto1{
+        margin-top: 300px;
+        display: flex;
+     justify-content: center;
+    
+    }
+    
+    .texto2{
+        display: flex;
+     justify-content: center;
+    
+    }
+
+
+
+    .textos3{
+
+        font-weight: 700;
+         font-family: 'High Cruiser', sans-serif;
+         font-size: 30px;
+     }
+     
+     .cartilla1{
+        width: 90%;
+       margin-left: 10%;
+       margin-top:30% ;
+    }
+
+    .promo {
+        margin-left: 20%;
+        }
+        .inicio{
+        
+        width: 10%;
+        margin-left: 70%;
+        margin-top: -48px;
+        }
+        
+
+}
